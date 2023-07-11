@@ -1,0 +1,40 @@
+
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    .alice-carousel__stage {
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        height: 1080px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        transform-style: flat;
+        -webkit-transform-style: flat;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+    }
+  
+    .alice-carousel__prev-btn,
+    .alice-carousel__next-btn {
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      border-radius: 50%;
+      padding: 10px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+  
