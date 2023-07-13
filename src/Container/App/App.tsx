@@ -6,10 +6,12 @@ import Main from 'Container/Main/Main';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from 'pages/Home/Home';
 import AboutUs from 'pages/AboutUs/AboutUs';
+import { StyledEngineProvider } from '@mui/material';
+import '../../Styles/Styles.scss';
 
 const App: React.FC = () => {
   return (
-    <>
+    <StyledEngineProvider injectFirst>
       <CssBaseline />
       <Header />
       <Routes>
@@ -18,7 +20,7 @@ const App: React.FC = () => {
       </Routes>
       <Main />
       <Footer />
-    </>
+    </StyledEngineProvider>
   );
 };
 

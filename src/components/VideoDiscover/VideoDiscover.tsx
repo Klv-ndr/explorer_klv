@@ -7,8 +7,8 @@ const VideoDiscover: React.FC = () => {
     <>
       <div className="video-container">
         <div className="video-description">
-          <h3>Watch the video</h3>
-          <h1>Proin ultricies</h1>
+          <h3 className="subtitle-video">Watch the video</h3>
+          <h1 className="title-video">Proin ultricies</h1>
           <p>
             Pellentesque sed dictum arcu donec ut tellus quis justo suscipit
             lobortis mollis nec erat. Sed et eros leohasellus varius.
