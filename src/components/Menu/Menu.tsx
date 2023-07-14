@@ -17,11 +17,7 @@ const Menu = (props: Props) => {
           About Us
         </NavLink>
       </Button>
-      <Button className="font-text" color="inherit" sx={{ color: 'brown' }}>
-        <NavLink to={'/Destinations'} className="menu-link">
-          Destinations
-        </NavLink>
-      </Button>
+
       <Button className="font-text" color="inherit" sx={{ color: 'brown' }}>
         <NavLink to={'/Gallery'} className="menu-link">
           Gallery

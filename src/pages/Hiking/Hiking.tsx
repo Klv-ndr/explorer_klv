@@ -1,9 +1,16 @@
+import React, { useEffect } from 'react';
+import Reviews from 'components/Reviews/Reviews';
 import './Hiking.scss';
 import HikingImg from 'assets/story4.jpg';
-type Props = {};
-const Hiking = (props: Props) => {
+
+const Hiking = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
+      <div className="header-hiking"></div>
       <div className="hiking">
         <img className="hiking-img" src={HikingImg} alt="" />
         <div className="hiking-text">
@@ -42,7 +49,9 @@ const Hiking = (props: Props) => {
           </p>
         </div>
       </div>
+      <Reviews />
     </>
   );
 };
+
 export default Hiking;

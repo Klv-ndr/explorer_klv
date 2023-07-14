@@ -1,10 +1,15 @@
+import Reviews from 'components/Reviews/Reviews';
 import './Camping.scss';
 import CampingImg from 'assets/story5.jpg';
+import { useEffect } from 'react';
 
-type Props = {};
-const Camping = (props: Props) => {
+const Camping = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
+      <div className="header-camping"></div>
       <div className="camping">
         <img className="camping-img" src={CampingImg} alt="" />
         <div className="camping-text">
@@ -43,6 +48,7 @@ const Camping = (props: Props) => {
           </p>
         </div>
       </div>
+      <Reviews />
     </>
   );
 };

@@ -1,25 +1,24 @@
-.discover {
-    margin: 50px;
+.contact-us {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin: 100px;
+}
+.contact-text {
+    width: 700px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.subTitle-contact {
+    color: #c89454;
+    font-family: 'Kalam', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
 }
 
-.discover-text {
-    width: 900px;
-}
-
-.discover-img{
-    height: 800px;
-    width: 1000px;
-}
-
-.data-color {
-    color: #bb782f;
-    margin-right: 20px;
-}
-.title-discover-text {
+.title-contact{
     color: #3e3a3b;
     font-family: 'Abril Fatface', sans-serif;
     font-size: 47px;
@@ -28,28 +27,29 @@
     font-weight: 400;
     letter-spacing: 1.1px;
     text-transform: none;
-    text-align: left;
-  }
+}
 
-  .subtitle-discover-text {
-    
-    padding: 20px;
-    border-left: 5px solid  #bb782f;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-  }
+.description-contact {
+    width: 500px;
+}
 
-  .description-discover-text {
-    color: #7b7b7b;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    line-height: 25px;
-    font-style: normal;
-    font-weight: 400;
-    padding-left: 50px;
-  }
+.data-contact {
+    margin-top: 50px;
+}
 
-  .header-discover {
+.adress-contact {
+    margin-bottom: 50px;
+}
+
+.number-contact {
+    margin-bottom: 50px;
+}
+
+.contact-margin {
+    margin-left: 20px;
+}
+
+.contact-us-title {
     background-image: url('../../assets/title-image.jpg');
     background-size: cover;
     background-position: center;
@@ -65,4 +65,5 @@
     letter-spacing: 1.1px;
     text-transform: none;
     padding-bottom: 375px;
-  }
+
+}

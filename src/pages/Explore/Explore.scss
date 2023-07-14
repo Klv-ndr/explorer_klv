@@ -5,6 +5,23 @@
     justify-content: center;
     align-items: center;
 }
+.header-explore {
+  background-image: url('../../assets/title-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    color: #3e3a3b;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 90px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-transform: none;
+    padding-bottom: 375px;
+}
 
 .explore-text {
     width: 900px;

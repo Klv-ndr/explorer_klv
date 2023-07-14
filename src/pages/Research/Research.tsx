@@ -1,10 +1,15 @@
+import Reviews from 'components/Reviews/Reviews';
 import './Research.scss';
 import ResearchImg from 'assets/story3.jpg';
+import { useEffect } from 'react';
 
-type Props = {};
-const Research = (props: Props) => {
+const Research = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
+      <div className="header-research"></div>
       <div className="research">
         <img src={ResearchImg} alt="" />
         <div className="research-text">
@@ -43,6 +48,7 @@ const Research = (props: Props) => {
           </p>
         </div>
       </div>
+      <Reviews />
     </>
   );
 };

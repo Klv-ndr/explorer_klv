@@ -1,10 +1,15 @@
+import Reviews from 'components/Reviews/Reviews';
 import './Discover.scss';
 import DiscoverImg from 'assets/story2.jpg';
+import { useEffect } from 'react';
 
-type Props = {};
-const Discover = (props: Props) => {
+const Discover = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
+      <div className="header-discover"></div>
       <div className="discover">
         <img src={DiscoverImg} alt="" />
         <div className="discover-text">
@@ -43,6 +48,7 @@ const Discover = (props: Props) => {
           </p>
         </div>
       </div>
+      <Reviews />
     </>
   );
 };
