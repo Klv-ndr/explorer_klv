@@ -1,0 +1,50 @@
+.hiking {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiking-text {
+    width: 900px;
+}
+
+.hiking-img{
+    height: 800px;
+    width: 1000px;
+}
+
+.data-color {
+    color: #bb782f;
+    margin-right: 20px;
+}
+.title-hiking-text {
+    color: #3e3a3b;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 47px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-transform: none;
+    text-align: left;
+  }
+
+  .subtitle-hiking-text {
+    
+    padding: 20px;
+    border-left: 5px solid  #bb782f;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .description-hiking-text {
+    color: #7b7b7b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 50px;
+  }

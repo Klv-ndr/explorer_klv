@@ -3,6 +3,7 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './SwiperSlider.scss';
 import { Button, Container } from '@mui/material';
+import { NavLink } from 'react-router-dom';
 
 const SwiperSlider = () => {
   const slideStyles = {
@@ -55,7 +56,11 @@ const SwiperSlider = () => {
                   erat feugait propriae mel eu prima.
                 </p>
               </div>
-              <button className="read-more"> Read More</button>
+              <button className="read-more">
+                <NavLink className="text-decoration" to={'./Camping'}>
+                  Read More
+                </NavLink>
+              </button>
             </Container>
           </div>
         </div>
@@ -98,7 +103,12 @@ const SwiperSlider = () => {
                 eu prima.
               </p>
             </div>
-            <button className="read-more"> Read More</button>
+            <button className="read-more-2">
+              {' '}
+              <NavLink className="text-decoration" to={'./Hiking'}>
+                Read More
+              </NavLink>
+            </button>
           </Container>
         </div>
       </div>
@@ -140,7 +150,12 @@ const SwiperSlider = () => {
                 eu prima.
               </p>
             </div>
-            <button className="read-more"> Read More</button>
+            <button className="read-more-3">
+              {' '}
+              <NavLink className="text-decoration" to={'./Research'}>
+                Read More
+              </NavLink>
+            </button>
           </Container>
         </div>
       </div>
@@ -182,7 +197,11 @@ const SwiperSlider = () => {
                 eu prima.
               </p>
             </div>
-            <button className="read-more"> Read More</button>
+            <button className="read-more-4">
+              <NavLink className="text-decoration" to={'./Discover'}>
+                Read More
+              </NavLink>
+            </button>
           </Container>
         </div>
       </div>
@@ -224,7 +243,12 @@ const SwiperSlider = () => {
                 eu prima.
               </p>
             </div>
-            <button className="read-more"> Read More</button>
+            <button className="read-more-5">
+              {' '}
+              <NavLink className="text-decoration" to={'./Explore'}>
+                Read More
+              </NavLink>
+            </button>
           </Container>
         </div>
       </div>

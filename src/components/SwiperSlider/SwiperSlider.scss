@@ -70,9 +70,88 @@
     height: 50px;
     width: 125px;
     border-radius: 5px;
+    
+    color: #3e3a3b;
   }
   .read-more:hover {
-    background-color: grey;
+    
+    background-color: #bebbbb;
+    color: white;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+  }
+
+  .read-more-2 {
+    margin: 20px;
+    background-color: #bb782f;
+    border: none;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+    
+    color: #3e3a3b;
+  }
+  .read-more-2:hover {
+    
+    background-color: #bebbbb;
+    color: white;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+  }
+
+  .read-more-3 {
+    margin: 20px;
+    background-color: #bb782f;
+    border: none;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+    
+    color: #3e3a3b;
+  }
+  .read-more-3:hover {
+    
+    background-color: #bebbbb;
+    color: white;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+  }
+
+  .read-more-4 {
+    margin: 20px;
+    background-color: #bb782f;
+    border: none;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+   
+    color: #3e3a3b;
+  }
+  .read-more-4:hover {
+    
+    background-color: #bebbbb;
+    color: white;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+  }
+
+  .read-more-5 {
+    margin: 20px;
+    background-color: #bb782f;
+    border: none;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+    
+    color: #3e3a3b;
+  }
+  .read-more-5:hover {
+    
+    background-color: #bebbbb;
     color: white;
     height: 50px;
     width: 125px;
@@ -107,4 +186,17 @@
     font-style: normal;
     font-weight: 400;
     padding-left: 50px;
+  }
+
+  .text-decoration {
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    width: 125px;
+  }
+  .text-decoration:hover {
+    height: 50px;
+    width: 125px;
+    text-decoration: none;
+    
   }
