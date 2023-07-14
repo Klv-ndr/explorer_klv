@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Reviews from 'components/Reviews/Reviews';
 import './Hiking.scss';
 import HikingImg from 'assets/story4.jpg';
@@ -12,7 +12,7 @@ const Hiking = () => {
     <>
       <div className="header-hiking"></div>
       <div className="hiking">
-        <img className="hiking-img" src={HikingImg} alt="" />
+        <img className="hiking-img" src={HikingImg} alt="hiking-img" />
         <div className="hiking-text">
           <h3 className="title-hiking-text">
             <span className="data-color"> 12 Oct</span>Hiking

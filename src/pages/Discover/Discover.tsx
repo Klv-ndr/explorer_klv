@@ -11,7 +11,7 @@ const Discover = () => {
     <>
       <div className="header-discover"></div>
       <div className="discover">
-        <img src={DiscoverImg} alt="" />
+        <img src={DiscoverImg} alt="discover-img" />
         <div className="discover-text">
           <h3 className="title-discover-text">
             <span className="data-color">23 Jun</span>Discover

@@ -54,7 +54,6 @@ const Comments: React.FC = () => {
             Eu usu commune tacimates principes
           </h4>
         </div>
-        {/* Додайте інші відгуки, які вам потрібні */}
       </Carousel>
     </div>
   );

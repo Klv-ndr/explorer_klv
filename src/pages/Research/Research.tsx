@@ -11,7 +11,7 @@ const Research = () => {
     <>
       <div className="header-research"></div>
       <div className="research">
-        <img src={ResearchImg} alt="" />
+        <img src={ResearchImg} alt="research-img" />
         <div className="research-text">
           <h3 className="title-research-text">
             <span className="data-color"> 30 May</span>Research

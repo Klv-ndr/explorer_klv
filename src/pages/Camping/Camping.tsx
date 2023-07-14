@@ -11,7 +11,7 @@ const Camping = () => {
     <>
       <div className="header-camping"></div>
       <div className="camping">
-        <img className="camping-img" src={CampingImg} alt="" />
+        <img className="camping-img" src={CampingImg} alt="camping-img" />
         <div className="camping-text">
           <h3 className="title-camping-text">
             <span className="data-color"> 19 Feb</span>Camping

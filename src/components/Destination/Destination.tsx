@@ -22,7 +22,7 @@ const Destination = (props: Props) => {
         <Container>
           <div className="list-item">
             <div className="item">
-              <img className="image-item" src={imgItem1} alt="" />
+              <img className="image-item" src={imgItem1} alt="image-item" />
               <h2>Explore Alaska today</h2>
               <p>
                 Proin ac orci vel dui rhoncus dignissim lorem Proinac orci vel
@@ -30,7 +30,7 @@ const Destination = (props: Props) => {
               </p>
             </div>
             <div className="item">
-              <img className="image-item" src={imgItem2} alt="" />
+              <img className="image-item" src={imgItem2} alt="image-item" />
               <h2>Explore Canada today</h2>
               <p>
                 Proin ac orci vel dui rhoncus dignissim lorem Proinac orci vel
@@ -38,7 +38,7 @@ const Destination = (props: Props) => {
               </p>
             </div>
             <div className="item">
-              <img className="image-item" src={imgItem3} alt="" />
+              <img className="image-item" src={imgItem3} alt="image-item" />
               <h2>Explore Island today</h2>
               <p>
                 Proin ac orci vel dui rhoncus dignissim lorem Proinac orci vel

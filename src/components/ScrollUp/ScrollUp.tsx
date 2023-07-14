@@ -36,17 +36,16 @@ const ScrollToTopButton: React.FC = () => {
     border: 'none',
     outline: 'none',
     cursor: 'pointer',
-    fontSize: 'inherit', // Додано цей стиль
+    fontSize: 'inherit',
   };
 
   const iconStyle: React.CSSProperties = {
-    fontSize: '48px', // Змінено розмір іконки на 48 пікселів
+    fontSize: '48px',
   };
 
   return (
     <button onClick={scrollToTop} style={buttonStyle}>
       <KeyboardDoubleArrowUpIcon style={iconStyle} />{' '}
-      {/* Додано стилі до іконки */}
     </button>
   );
 };

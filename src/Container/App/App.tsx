@@ -2,8 +2,6 @@ import React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import Footer from 'Container/Footer/Footer';
 import Header from 'Container/Header/Header';
-import Main from 'Container/Main/Main';
-
 import { StyledEngineProvider } from '@mui/material';
 import '../../Styles/Styles.scss';
 import { Route, Routes } from 'react-router-dom';
@@ -35,7 +33,6 @@ const App: React.FC = () => {
         <Route path="/Stories/Research" element={<Research />} />
         <Route path="/Stories/Explore" element={<Explore />} />
       </Routes>
-      {/* <Main /> */}
       <Footer />
     </StyledEngineProvider>
   );

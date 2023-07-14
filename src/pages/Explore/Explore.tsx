@@ -11,7 +11,7 @@ const Explore = () => {
     <>
       <div className="header-explore"></div>
       <div className="explore">
-        <img src={ExploreImg} alt="" />
+        <img src={ExploreImg} alt="explore-img" />
         <div className="explore-text">
           <h3 className="title-explore-text">
             <span className="data-color"> 09 Apr</span>Explore

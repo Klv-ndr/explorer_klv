@@ -19,17 +19,17 @@ const AboutUs = (props: Props) => {
         </div>
         <div className="explore-description">
           <div className="exploration">
-            <img src={ImgExplore1} alt="" />
+            <img src={ImgExplore1} alt="img-explore1" />
             <h3>Exploration</h3>
             <p>Proin ac orci vel dui rhoncus dignissim lorem ipsum.</p>
           </div>
           <div className="adventures">
-            <img src={ImgExplore2} alt="" />
+            <img src={ImgExplore2} alt="img-explore2" />
             <h3>Adventures</h3>
             <p>Proin ac orci vel dui rhoncus dignissim lorem ipsum.</p>
           </div>
           <div className="equipment">
-            <img src={ImgExplore3} alt="" />
+            <img src={ImgExplore3} alt="img-explore3" />
             <h3>Equipment</h3>
             <p>Proin ac orci vel dui rhoncus dignissim lorem ipsum.</p>
           </div>

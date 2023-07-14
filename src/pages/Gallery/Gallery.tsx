@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './Gallery.scss';
@@ -55,7 +55,7 @@ const Gallery = (props: Props) => {
               key={index}
               className="width"
               src={image}
-              alt=""
+              alt="image1"
               onClick={() => handleImageClick(index)}
             />
           ))}
@@ -84,7 +84,7 @@ const Gallery = (props: Props) => {
             >
               {images.map((image, index) => (
                 <div className="each-slide" key={index}>
-                  <img className="slide-image" src={image} alt="" />
+                  <img className="slide-image" src={image} alt="slide-img" />
                 </div>
               ))}
             </Slide>

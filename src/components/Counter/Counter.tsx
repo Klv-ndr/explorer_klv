@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 import './Counter.scss';
 
@@ -17,7 +17,7 @@ const CounterAnimation = () => {
     const targetNumber1 = 1982;
     const targetNumber2 = 284;
     const targetNumber3 = 2190;
-    const animationDuration = 5000; // Змінено на 5 секунд
+    const animationDuration = 5000;
     const steps = 100;
     const stepDuration = animationDuration / steps;
 

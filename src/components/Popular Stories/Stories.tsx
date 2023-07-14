@@ -19,7 +19,7 @@ const Stories = (props: Props) => {
         <div className="stories-list">
           <div className="story5">
             <NavLink className="decoration-text" to={'/Stories/Explore'}>
-              <img className="story-img" src={StoryImg1} alt="" />
+              <img className="story-img" src={StoryImg1} alt="story-img" />
               <h3 className="title-sub-img">Explore</h3>
               <p>
                 Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor
@@ -29,7 +29,7 @@ const Stories = (props: Props) => {
           </div>
           <div className="story4">
             <NavLink className="decoration-text" to={'/Stories/Discover'}>
-              <img className="story-img" src={StoryImg2} alt="" />
+              <img className="story-img" src={StoryImg2} alt="story-img" />
               <h3 className="title-sub-img">Discover</h3>
               <p>
                 Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor
@@ -39,7 +39,7 @@ const Stories = (props: Props) => {
           </div>
           <div className="story3">
             <NavLink className="decoration-text" to={'/Stories/Research'}>
-              <img className="story-img" src={StoryImg3} alt="" />
+              <img className="story-img" src={StoryImg3} alt="story-img" />
               <h3 className="title-sub-img">Research</h3>
               <p>
                 Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor
@@ -49,7 +49,7 @@ const Stories = (props: Props) => {
           </div>
           <div className="story2">
             <NavLink className="decoration-text" to={'/Stories/Hikking'}>
-              <img className="story-img" src={StoryImg4} alt="" />
+              <img className="story-img" src={StoryImg4} alt="story-img" />
               <h3 className="title-sub-img">Hiking</h3>
               <p>
                 Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor
@@ -59,7 +59,7 @@ const Stories = (props: Props) => {
           </div>
           <div className="story1">
             <NavLink className="decoration-text" to={'/Stories/Camping'}>
-              <img className="story-img" src={StoryImg5} alt="" />
+              <img className="story-img" src={StoryImg5} alt="story-img" />
               <h3 className="title-sub-img">Camping</h3>
               <p>
                 Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor

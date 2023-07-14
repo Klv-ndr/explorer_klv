@@ -1,8 +1,7 @@
-import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './SwiperSlider.scss';
-import { Button, Container } from '@mui/material';
+import { Container } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
 const SwiperSlider = () => {
@@ -104,7 +103,6 @@ const SwiperSlider = () => {
               </p>
             </div>
             <button className="read-more-2">
-              {' '}
               <NavLink className="text-decoration" to={'./Hiking'}>
                 Read More
               </NavLink>
@@ -151,7 +149,6 @@ const SwiperSlider = () => {
               </p>
             </div>
             <button className="read-more-3">
-              {' '}
               <NavLink className="text-decoration" to={'./Research'}>
                 Read More
               </NavLink>
@@ -244,7 +241,6 @@ const SwiperSlider = () => {
               </p>
             </div>
             <button className="read-more-5">
-              {' '}
               <NavLink className="text-decoration" to={'./Explore'}>
                 Read More
               </NavLink>
