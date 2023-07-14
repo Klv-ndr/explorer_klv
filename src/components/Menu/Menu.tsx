@@ -1,30 +1,44 @@
 import Button from '@mui/material/Button';
 import './Menu.scss';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 type Props = {};
+
 const Menu = (props: Props) => {
   return (
     <>
       <Button className="font-text" color="inherit" sx={{ color: 'brown' }}>
-        <Link to="/Home"> Home </Link>
+        <NavLink to={'/'} className="menu-link">
+          Home
+        </NavLink>
       </Button>
       <Button className="font-text" color="inherit" sx={{ color: 'brown' }}>
-        <Link to="/AboutUs"> About Us </Link>
+        <NavLink to={'/AboutUs'} className="menu-link">
+          About Us
+        </NavLink>
       </Button>
       <Button className="font-text" color="inherit" sx={{ color: 'brown' }}>
-        Destinations
+        <NavLink to={'/Destinations'} className="menu-link">
+          Destinations
+        </NavLink>
       </Button>
       <Button className="font-text" color="inherit" sx={{ color: 'brown' }}>
-        Gallery
+        <NavLink to={'/Gallery'} className="menu-link">
+          Gallery
+        </NavLink>
       </Button>
       <Button className="font-text" color="inherit" sx={{ color: 'brown' }}>
-        Stories
+        <NavLink to={'/Stories'} className="menu-link">
+          Stories
+        </NavLink>
       </Button>
       <Button className="font-text" color="inherit" sx={{ color: 'brown' }}>
-        Contact Us
+        <NavLink to={'/ContactUs'} className="menu-link">
+          Contact Us
+        </NavLink>
       </Button>
     </>
   );
 };
+
 export default Menu;

@@ -1,0 +1,72 @@
+.about-us {
+    background-image: url('../../assets/title-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    color: #3e3a3b;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 90px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-transform: none;
+    padding-bottom: 375px;
+}
+.explore-together {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.explore-description{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.title-explore-together {
+    width: 420px;
+    margin-right: 150px;
+}
+.exploration {
+    width: 250px;
+    text-align: center;
+    margin-right: 50px;
+}
+.adventures {
+    width: 250px;
+    text-align: center;
+    margin-right: 50px;
+}
+.equipment {
+    width: 250px;
+    text-align: center;
+}
+.sub-title-together {
+    font-style: italic;
+    color: #bb782f;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    padding-top: 50px;
+    font-size: 24px;
+}
+.main-title-together{
+    color: #3e3a3b;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 47px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-transform: none;
+}
+.background-comments{
+    background-image: url('../../assets/home-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+}

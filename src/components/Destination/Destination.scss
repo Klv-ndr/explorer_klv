@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Kalam:wght@300;400;700&display=swap');
 
 
 .title-description {
@@ -9,11 +9,22 @@
 }
 .h3 {
     font-style: italic;
-    color: #c09669;
+    color: #bb782f;
     font-family: "Kalam", cursive;
-    padding-top: 50px;
     font-weight: 700;
+    padding-top: 50px;
+    
     font-size: 30px;
+}
+.h1{
+    color: #3e3a3b;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 47px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-transform: none;
 }
 
 .destination-img {

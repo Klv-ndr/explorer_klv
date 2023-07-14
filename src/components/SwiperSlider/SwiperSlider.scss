@@ -1,0 +1,110 @@
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+
+  .SwiperSlider-1{
+    background-image: url('../../assets/story5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+
+  .SwiperSlider-2{
+    background-image: url('../../assets/story4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+
+  .SwiperSlider-3{
+    background-image: url('../../assets/story3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+
+  .SwiperSlider-4{
+    background-image: url('../../assets/story2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+
+  .SwiperSlider-5{
+    background-image: url('../../assets/story1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+
+  .stories-text {
+    margin-top: 1000px;
+    background-image: url('../../assets/home-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+  
+  .read-more {
+    margin: 20px;
+    background-color: #bb782f;
+    border: none;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+  }
+  .read-more:hover {
+    background-color: grey;
+    color: white;
+    height: 50px;
+    width: 125px;
+    border-radius: 5px;
+  }
+
+  .title-stories-text {
+    color: #3e3a3b;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 47px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-transform: none;
+    text-align: center;
+  }
+
+  .subtitle-stories-text {
+    
+    padding: 20px;
+    border-left: 5px solid  #bb782f;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .description-stories-text {
+    color: #7b7b7b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 50px;
+  }

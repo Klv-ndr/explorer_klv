@@ -1,41 +1,81 @@
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
-import slider1 from 'assets/slider1.jpg';
-import slider2 from 'assets/slider2.jpg';
-import slider3 from 'assets/slider3.jpg';
-import slider4 from 'assets/slider4.jpg';
-
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 import './Slider.scss';
 
 const Slider = () => {
-  const handleOnSlideChange = (e: { item: any }) => {
-    console.log(`Slide changed to index: ${e.item}`);
+  const slideStyles = {
+    height: '1080px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  };
+  const spanStyles: React.CSSProperties = {
+    zIndex: 6,
+    fontFamily: 'Abril Fatface',
+    height: 'auto',
+    color: 'rgb(62, 58, 59)',
+    textDecoration: 'none',
+    whiteSpace: 'normal',
+    width: '750px',
+    minHeight: '0px',
+    minWidth: '0px',
+    maxHeight: 'none',
+    maxWidth: 'none',
+    textAlign: 'center',
+    lineHeight: '95px',
+    letterSpacing: '0px',
+    fontWeight: 400,
+    fontSize: '90px',
+    transformOrigin: '50% 50%',
+    opacity: 1,
+    transform: 'translate(0px, 0px)',
+    visibility: 'visible',
+    backgroundColor: 'transparent',
   };
 
   return (
-    <div className="slider-container">
-      <AliceCarousel
-        mouseTracking
-        items={[
-          <div className="slider-item">
-            <img src={slider1} alt="Slide 1" />
-          </div>,
-          <div className="slider-item">
-            <img src={slider2} alt="Slide 2" />
-          </div>,
-          <div className="slider-item">
-            <img src={slider3} alt="Slide 3" />
-          </div>,
-          <div className="slider-item">
-            <img src={slider4} alt="Slide 4" />
-          </div>,
-        ]}
-        onSlideChanged={handleOnSlideChange}
-        infinite
-        autoPlay
-        autoPlayInterval={2000}
-      />
-    </div>
+    <Slide autoplay={true} duration={2500}>
+      <div className="each-slide-effect">
+        <div className="slider-1" style={{ ...slideStyles }}>
+          <span className="span-slider" style={{ ...spanStyles }}>
+            Go on Exciting adventures
+          </span>
+        </div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="slider-2" style={{ ...slideStyles }}>
+          <span
+            className="span-slider"
+            style={{ ...spanStyles, color: '#fff' }}
+          >
+            Go on Exciting adventures
+          </span>
+        </div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="slider-3" style={{ ...slideStyles }}>
+          <span
+            className="span-slider"
+            style={{ ...spanStyles, color: '#fff' }}
+          >
+            Go on Exciting adventures
+          </span>
+        </div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="slider-4" style={{ ...slideStyles }}>
+          <span
+            className="span-slider"
+            style={{ ...spanStyles, color: '#fff' }}
+          >
+            Go on Exciting adventures
+          </span>
+        </div>
+      </div>
+    </Slide>
   );
 };
 
