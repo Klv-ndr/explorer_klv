@@ -30,7 +30,7 @@ const Destination = (props: Props) => {
               </p>
             </div>
             <div className="item">
-              <img className="image-item" src={imgItem2} alt="image-item" />
+              <img className="image-item" src={imgItem2} alt="image-item122" />
               <h2>Explore Canada today</h2>
               <p>
                 Proin ac orci vel dui rhoncus dignissim lorem Proinac orci vel
@@ -38,7 +38,7 @@ const Destination = (props: Props) => {
               </p>
             </div>
             <div className="item">
-              <img className="image-item" src={imgItem3} alt="image-item" />
+              <img className="image-item" src={imgItem3} alt="image-item2" />
               <h2>Explore Island today</h2>
               <p>
                 Proin ac orci vel dui rhoncus dignissim lorem Proinac orci vel
