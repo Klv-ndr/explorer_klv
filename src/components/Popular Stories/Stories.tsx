@@ -48,7 +48,7 @@ const Stories = (props: Props) => {
             </NavLink>
           </div>
           <div className="story2">
-            <NavLink className="decoration-text" to={'/Stories/Hikking'}>
+            <NavLink className="decoration-text" to={'/Stories/Hiking'}>
               <img className="story-img" src={StoryImg4} alt="story-img" />
               <h3 className="title-sub-img">Hiking</h3>
               <p>
